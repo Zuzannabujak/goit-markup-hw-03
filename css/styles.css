@@ -1,9 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .general
 {
     font-family:"Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
+    margin: 0 auto;
 }
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+}
+.header .container 
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0, auto;
+    align-items: center;
+  }
 .logo 
 {
     font-family: "Raleway", sans-serif;
