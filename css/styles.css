@@ -5,11 +5,6 @@
   margin: 0;
   padding: 0;
 }
-*
-{
-    margin:0;
-    padding:0;
-}
 img {
   display: block;
   max-width: 100%;
@@ -179,7 +174,7 @@ ul {
     gap: 24px;
     padding-left: 0;
   }
-  .ul-secondsection:first-child
+  .li-secondsection
    {
     width: calc((100% - 72px) / 4);
   }
