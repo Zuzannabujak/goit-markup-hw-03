@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6
     line-height: 1.5;
     font-weight: 500;
     display: block;
-    padding: 24px 0
+    padding: 24px 0;
 }
 .menunav:hover, 
 .menunav:focus
@@ -174,7 +174,7 @@ ul {
     gap: 24px;
     padding-left: 0;
   }
-  .li-secondsection
+  .li-secondsection:first-child
    {
     width: calc((100% - 72px) / 4);
   }
