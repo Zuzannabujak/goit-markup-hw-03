@@ -168,16 +168,14 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  .ul-secondsection
+  .ul-secondsection:first-child
    {
     display: flex;
     gap: 24px;
     padding-left: 0;
-  }
-  .li-secondsection:first-child
-   {
     width: calc((100% - 72px) / 4);
   }
+ 
 .secondsection-heading
 {
     font-size: 20px;
