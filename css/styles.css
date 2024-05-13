@@ -174,7 +174,7 @@ ul {
     gap: 24px;
     padding-left: 0;
   }
-  .ul-secondsection:first-child
+  .li-secondsection:first-child
    {
     width: calc((100% - 72px) / 4);
   }
